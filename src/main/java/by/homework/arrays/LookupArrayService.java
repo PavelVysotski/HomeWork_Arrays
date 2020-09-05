@@ -7,7 +7,9 @@ import java.util.Scanner;
 public class LookupArrayService {
 
     public static int findMax(int[] array) {
-        if (array != null) {
+        if (array == null) {
+            return 0;
+        } else {
             int tempMax = array[0];
             for (int i = 1; i < array.length; i++) {
                 if (array[i] > tempMax) {
@@ -16,11 +18,12 @@ public class LookupArrayService {
             }
             return tempMax;
         }
-        return 0;
     }
 
     public static int findMin(int[] array) {
-        if (array != null) {
+        if (array == null) {
+            return 0;
+        } else {
             int tempMin = array[0];
             for (int i = 1; i < array.length; i++) {
                 if (array[i] < tempMin) {
@@ -29,11 +32,12 @@ public class LookupArrayService {
             }
             return tempMin;
         }
-        return 0;
     }
 
     public static int indexOfMax(int[] array) {
-        if (array != null) {
+        if (array == null) {
+            return -1;
+        } else {
             int tempMax = array[0];
             int indexMax = 0;
             for (int i = 1; i < array.length; i++) {
@@ -44,11 +48,12 @@ public class LookupArrayService {
             }
             return indexMax;
         }
-        return -1;
     }
 
     public static int indexOfMin(int[] array) {
-        if (array != null) {
+        if (array == null) {
+            return -1;
+        } else {
             int tempMin = array[0];
             int indexMin = 0;
             for (int i = 1; i < array.length; i++) {
@@ -59,11 +64,13 @@ public class LookupArrayService {
             }
             return indexMin;
         }
-        return -1;
+
     }
 
     public static int indexOf(int[] array) {
-       if (array != null) {
+        if (array == null) {
+            return -1;
+        } else {
             Scanner scan = new Scanner(System.in);
             System.out.print("Введите число, индекс которого необходимо найти:");
             int number = scan.nextInt();
@@ -75,7 +82,5 @@ public class LookupArrayService {
             }
             return index;
         }
-
-        return -1;
     }
 }

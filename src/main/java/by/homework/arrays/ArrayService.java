@@ -31,11 +31,16 @@ public class ArrayService {
     }
 
     public static double avg(int[] array) {
-        int sum = 0;
-        for (int i = 0; i < array.length; i++) {
-            sum += array[i];
+        if (array == null) {
+            return 0;
+        } else {
+            int sum = 0;
+            for (int i = 0; i < array.length; i++) {
+                sum += array[i];
+            }
+            return (double) sum / array.length;
         }
-        return (double) sum / array.length;
+
     }
 
     public static void sort(int[] array) {
