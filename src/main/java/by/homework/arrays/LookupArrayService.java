@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class LookupArrayService {
 
     public static int findMax(int[] array) {
-        if (array.length > 0) {
+        if (array != null) {
             int tempMax = array[0];
             for (int i = 1; i < array.length; i++) {
                 if (array[i] > tempMax) {
@@ -20,7 +20,7 @@ public class LookupArrayService {
     }
 
     public static int findMin(int[] array) {
-        if (array.length > 0) {
+        if (array != null) {
             int tempMin = array[0];
             for (int i = 1; i < array.length; i++) {
                 if (array[i] < tempMin) {
@@ -33,7 +33,7 @@ public class LookupArrayService {
     }
 
     public static int indexOfMax(int[] array) {
-        if (array.length > 0) {
+        if (array != null) {
             int tempMax = array[0];
             int indexMax = 0;
             for (int i = 1; i < array.length; i++) {
@@ -48,7 +48,7 @@ public class LookupArrayService {
     }
 
     public static int indexOfMin(int[] array) {
-        if (array.length > 0) {
+        if (array != null) {
             int tempMin = array[0];
             int indexMin = 0;
             for (int i = 1; i < array.length; i++) {
@@ -63,7 +63,7 @@ public class LookupArrayService {
     }
 
     public static int indexOf(int[] array) {
-       if (array.length > 0) {
+       if (array != null) {
             Scanner scan = new Scanner(System.in);
             System.out.print("Введите число, индекс которого необходимо найти:");
             int number = scan.nextInt();

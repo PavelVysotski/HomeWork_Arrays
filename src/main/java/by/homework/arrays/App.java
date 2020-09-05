@@ -13,9 +13,9 @@ public class App {
 //        System.out.println("Индекс минимального числа: " + LookupArrayService.indexOfMin(array));
 //        System.out.println("Индекс искомого числа: " + LookupArrayService.indexOf(array));
 
-       int leftBound = 3;
-       int rightBound = 6;
-       ArrayService.printArray(CopyElements.copuInRange(array, leftBound, rightBound));
+//       int leftBound = 3;
+//       int rightBound = 6;
+//       ArrayService.printArray(CopyElements.copuInRange(array, leftBound, rightBound));
 
     }
 }
