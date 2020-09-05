@@ -64,7 +64,6 @@ public class LookupArrayService {
             }
             return indexMin;
         }
-
     }
 
     public static int indexOf(int[] array) {

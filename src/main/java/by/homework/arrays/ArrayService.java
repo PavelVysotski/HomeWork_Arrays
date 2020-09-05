@@ -40,7 +40,6 @@ public class ArrayService {
             }
             return (double) sum / array.length;
         }
-
     }
 
     public static void sort(int[] array) {
