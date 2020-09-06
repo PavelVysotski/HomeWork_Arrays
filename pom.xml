@@ -9,10 +9,10 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <sonar.projectKey>javaGuruBY_java-free-stream-5</sonar.projectKey>
-        <sonar.organization>javaguruby</sonar.organization>
+        <sonar.projectKey>PavelVysotski_HomeWork_Arrays</sonar.projectKey>
+        <sonar.organization>pavelvysotski-2</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        <sonar.login>d4a43c92cc5b4686b432aa2bcfea10d230cc5b73</sonar.login>
+        <sonar.login>58346879ebe036a3b83e13dcfb8ae83683183b11</sonar.login>
     </properties>
 
     <dependencies>

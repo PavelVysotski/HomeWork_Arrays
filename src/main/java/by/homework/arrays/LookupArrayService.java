@@ -70,9 +70,7 @@ public class LookupArrayService {
         if (array == null) {
             return -1;
         } else {
-            Scanner scan = new Scanner(System.in);
-            System.out.print("Введите число, индекс которого необходимо найти:");
-            int number = scan.nextInt();
+            int number = -18;
             int index = 0;
             for (int i = 0; i < array.length; i++) {
                 if (number == array[i]) {
