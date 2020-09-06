@@ -2,7 +2,6 @@ package by.homework.arrays;
 
 import junit.framework.TestCase;
 
-import java.util.Scanner;
 
 public class LookupArrayServiceTest extends TestCase {
 
