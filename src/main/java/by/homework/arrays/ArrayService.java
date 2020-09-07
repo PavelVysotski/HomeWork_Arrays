@@ -1,9 +1,10 @@
 package by.homework.arrays;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
 
 public class ArrayService {
+
+    public ArrayService() {
+    }
 
     public static int[] create(int size) {
         int[] array = new int[size];
