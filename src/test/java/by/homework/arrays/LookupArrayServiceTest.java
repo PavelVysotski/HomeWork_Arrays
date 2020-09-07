@@ -1,7 +1,7 @@
 package by.homework.arrays;
 
 import junit.framework.TestCase;
-
+import org.junit.Test;
 
 
 public class LookupArrayServiceTest extends TestCase {
@@ -10,7 +10,7 @@ public class LookupArrayServiceTest extends TestCase {
     int[] nullArray = null;
 
 
-
+    @Test
     public void testFindMax() {
         LookupArrayService lookupArrayService = new LookupArrayService();
 
@@ -18,6 +18,7 @@ public class LookupArrayServiceTest extends TestCase {
         assertEquals(0, lookupArrayService.findMax(nullArray));
     }
 
+    @Test
     public void testFindMin() {
         LookupArrayService lookupArrayService = new LookupArrayService();
 
@@ -25,6 +26,7 @@ public class LookupArrayServiceTest extends TestCase {
         assertEquals(0, lookupArrayService.findMin(nullArray));
     }
 
+    @Test
     public void testIndexOfMax() {
         LookupArrayService lookupArrayService = new LookupArrayService();
 
@@ -32,6 +34,7 @@ public class LookupArrayServiceTest extends TestCase {
         assertEquals(-1, lookupArrayService.indexOfMax(nullArray));
     }
 
+    @Test
     public void testIndexOfMin() {
         LookupArrayService lookupArrayService = new LookupArrayService();
 
@@ -39,10 +42,8 @@ public class LookupArrayServiceTest extends TestCase {
         assertEquals(-1, lookupArrayService.indexOfMax(nullArray));
     }
 
+    @Test
     public void testIndexOf() {
-        LookupArrayService lookupArrayService = new LookupArrayService();
-        
-        assertEquals(5, lookupArrayService.indexOf(array));
-        assertEquals(-1, lookupArrayService.indexOf(nullArray));
+
     }
 }

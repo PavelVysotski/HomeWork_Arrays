@@ -5,8 +5,6 @@ public class LookupArrayService {
     int[] array;
     int[] nullArray;
 
-    public LookupArrayService() {
-    }
 
     public static int findMax(int[] array) {
         if (array == null) {

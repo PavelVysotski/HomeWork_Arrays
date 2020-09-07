@@ -3,8 +3,6 @@ package by.homework.arrays;
 
 public class ArrayService {
 
-    public ArrayService() {
-    }
 
     public static int[] create(int size) {
         int[] array = new int[size];
@@ -13,7 +11,7 @@ public class ArrayService {
 
     public static void fillRandom(int[] array) {
         for (int i = 0; i < array.length; i++) {
-            array[i] = (int) (Math.random() * (100 - 0)) + 0;
+            array[i] = (int) (Math.random() * (100 + 0));
         }
     }
 
